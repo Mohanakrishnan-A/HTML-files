@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registraction form</title>
+</head>
+<body>
+<form method="get" name="registrationform" action="table.html">
+<table border="0">
+<tr>
+<td>Username</td>
+<td><input type="text" name="uname" required placeholder="ENTER NAME" maxlength="8"/></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="upass" required/></td>
+</tr>
+<tr>
+<td>Date Of Birth</td>
+<td><input type="date" name="Date"/></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="ugender">Male
+<input type="radio" name="ugender">Female
+<input type="radio" name="ugender">Transgender
+</td>
+</tr>
+<tr>
+<td>Address</td>
+<td>
+<textarea rows="5" cols="20"></textarea>
+</td>
+</tr>
+<tr>
+<td>Hobbies</td>
+<td>
+<input type="checkbox" name="hobby">Cricket
+<input type="checkbox" name="hobby1">Chess
+<input type="checkbox" name="hobby2">Reading
+</td>
+</tr>
+<tr>
+<td>Country</td>
+<td><select name="country">
+<option value="India">India</option>
+<option value="USA">USA</option>
+<option value="China">China</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Add File</td>
+<td><input type="file"/></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" value="Register"/>
+<input type="reset" value="Cancel"/></td>
+</tr>
+
+</form>
+</body>
+</html>

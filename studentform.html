@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registraction form</title>
+</head>
+<body>
+<form method="get" name="Registrationform" action="last.html">
+<table border="0" align="center">
+<h1 align="center">Registration Form</h1>
+<tr>
+<td>Student Name</td>
+<td><input type="text" name="uname" required placeholder="ENTER NAME" maxlength="8"/></td>
+</tr>
+<tr>
+<td>Father's Name</td>
+<td><input type="text" name="fname" required placeholder="ENTER FATHER'S NAME"/></td>
+</tr>
+<tr>
+<td>Mother's Name</td>
+<td><input type="text" name="mname" required placeholder="ENTER MOTHER'S NAME"/></td>
+</tr>
+<tr>
+<td>Phone Number</td>
+<td><input type="number" name="pnumber" required placeholder="9876xxxxxx"/></td>
+</tr>
+<tr>
+<td>EmailID</td>
+<td><input type="email" name="uemail" required placeholder="ENTER YOUR MAIL"/></td>
+</tr>
+<tr>
+<td>Create Password</td>
+<td><input type="password" name="upass" required placeholder="PASSWORD" minlength="3" maxlength="8"/></td>
+</tr>
+<tr>
+<td>Confirm Password</td>
+<td><input type="password" name="upass" required placeholder="PASSWORD" minlength="3" maxlength="8"/></td>
+</tr>
+<tr>
+<td>Date Of Birth</td>
+<td><input type="date" name="Date" required/></td>
+</tr>
+<tr>
+<td>Enter your Age</td>
+<td><input type="number" name="uage" required/></td>
+</tr>
+<tr>
+<td>Gender required</td>
+<td>
+<input type="radio" name="ugender">Male
+<input type="radio" name="ugender">Female
+<input type="radio" name="ugender">Transgender
+</td>
+</tr>
+<tr>
+<td>Qualification required</td>
+<td><select name="qualification">
+<option value="10th">10th</option>
+<option value="12th">12th</option>
+<option value="Degree">degree</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Address</td>
+<td>
+<textarea rows="5" cols="20" required></textarea>
+</td>
+</tr>
+<tr>
+<td>Country </td>
+<td><select name="country">
+<option value="India">India</option>
+<option value="USA">USA</option>
+<option value="China">China</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Hobbies required</td>
+<td>
+<input type="checkbox" name="hobby">Playing
+<input type="checkbox" name="hobby1">Dancing
+<input type="checkbox" name="hobby2">Reading
+<input type="checkbox" name="hobby3">Singing
+</td>
+</tr>
+
+
+<tr>
+<td></td>
+<td><input type="submit" value="Register"/>
+<input type="reset" value="Cancel"/></td>
+</tr>
+
+</form>
+</body>
+</html>
